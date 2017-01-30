@@ -1,0 +1,73 @@
+// include foundation
+
+@import "../node_modules/foundation-sites/scss/foundation";
+
+@include foundation-global-styles;
+@include foundation-grid;
+
+body {
+  background-color: #1F2041;
+  border: 1px solid #FFC857;
+  padding: 20px;
+  margin: 20px;
+  height: 80%;
+  font-family: 'Open Sans', sans-serif;
+
+  h1 {
+    color: #4B3F72;
+    border-bottom: 1px solid #119DA4;
+    text-align: center;
+  }
+
+  #submit, #addFood, #viewFood {
+    padding: 20px;
+    margin: 20px;
+    color: #119DA4;
+    border: 2px solid #119DA4;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #submit:hover, #addFood:hover, #viewFood:hover {
+    background-color: black;
+    color: #FFC857;
+    border: 2px solid #FFC857;
+  }
+
+  a {
+    color: #119DA4;
+  }
+
+  #tabs {
+    text-align: center;
+  }
+
+  li {
+    list-style: none;
+    text-align: left;
+    color: #119DA4;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  input {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .search {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    #searchbtn {
+      border: 2px solid white;
+      padding: 10px;
+      color: white;
+    }
+  }
+}
